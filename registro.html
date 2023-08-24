@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>SITIO DE PRACTICA</title>
+    <link rel="shortcut icon" href="./imagenes/facebook.png" type="image/x-icon">
+</head>
+<body>
+    <header align="center">
+        <h1> SITIO DE PRACTICA </h1>
+        <nav>
+            <a href="index.html">home</a>
+            <a href="quienes somos.html">quienes somos</a>
+            <a href="sucursales.html">sucursales</a>
+            <a href="contacto.html">contacto</a>
+            <a href="registro.html">registro</a>
+            <a href="login.html">login</a>
+        </nav>
+        <hr>
+    </header>
+    <main >
+       <h2>Registro de usuario</h2>
+       <form action="show-data.html">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre"><br>
+        <label for="apellido">apellido</label>
+        <input type="text" name="apellido" id="apellido"><br>
+        <label for="pais">pais</label>
+        <input type="text" name="pais" id="pais" value="argentina"> <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="edad">edad</label>
+        <input type="number" name="edad" id="edad"><br>
+        <label for="fecnac">Fecha de nacimiento</label>
+        <input type="date" name="fecnac" id="fecnac"><br>
+        <label for="clave">Clave</label>
+        <input type="password" name="clave" id="clave"><br>
+        <br>
+        <label for="genero">genero:</label>
+        <input type="radio" name="genero" value="hombre">Hombre
+        <input type="radio" name="genero" value="mujer">Mujer
+        <input type="radio" name="genero" value="otros">otros <br>
+        <label for="conocimiento">conocimiento</label>
+        <input type="checkbox" name="conocimiento" value="html"> HTML
+        <input type="checkbox" name="conocimiento" value="python"> python
+        <input type="checkbox" name="conocimiento" value="java"> JAVA
+        <input type="checkbox" name="conocimiento" value="visual basic"> VISUAL BASIC <br>
+        <label for="estudios"> ESTUDIOS (seleccione)</label>
+        <select name="estudios" id="estudios">
+            <option value="primario">primario</option>
+            <option value="secundario">secundario</option>
+            <option value="terciario">terciario</option>
+            <option value="universitario">universitario</option>
+        </select>
+        <br>
+        
+
+        <label for="comentario">comentario</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="ENVIAR">
+       </form>
+        <br><br><br>
+    </main>
+    <footer align="center">
+        <hr>
+        <p>sitio desarrollado en clase de codo a codo</p>
+        <nav>
+            <a href="https://www.facebook.com/">
+                <img width="20" src="./imagenes/facebook.png" alt="facebook">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
